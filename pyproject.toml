@@ -5,7 +5,7 @@ build-backend = "maturin"
 [project]
 name = "preq" 
 description = "Generates requirements.txt for Python projects." 
-requires-python = ">=3.7" 
+requires-python = ">=3.10" 
 
 [tool.maturin]
 bindings = "bin" 
