@@ -5,7 +5,7 @@ build-backend = "maturin"
 [project]
 name = "preq" 
 version = "0.1.1"
-authors = ["Antonio Braz <antoniomtbraz@gmail.com>"]
+authors = [{"Antonio Braz"="antoniomtbraz@gmail.com"}]
 description = "Generates requirements.txt for Python projects." 
 requires-python = ">=3.10" 
 readme = "README.md"
