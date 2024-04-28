@@ -47,8 +47,7 @@ You can view a list of all available commands and their descriptions by running:
 ```bash
 preq -h
 ```
->Note on Arguments:
-While the `-h` option is fully functional, providing detailed help on using the tool, please be aware that most other command-line arguments are still in development. These arguments are placeholders at this time and may not yet be implemented. Future updates will activate these options as features are developed and integrated into preq.
+>While the `-h` option is fully functional, providing detailed help on using the tool, please be aware that most other command-line arguments are still in development. These arguments are placeholders at this time and may not yet be implemented. Future updates will activate these options as features are developed and integrated into preq.
 
 # Contributing
 Contributions to preq are welcome! Whether it involves feature development, bug fixes, or documentation improvements, feel free to fork the repository and submit a pull request.
