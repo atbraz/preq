@@ -3,8 +3,19 @@ build-backend = "maturin"
 requires = ["maturin>=1.0,<2.0"]
 
 [project]
-classifiers = ["Programming Language :: Python :: 3.10"]
-description = "Generates requirements.txt for Python projects."
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Rust",
+    "Operating System :: OS Independent",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+]
+description = "Generates requirements.txt for Python projects from imports in Python code. Inspired by pipreqs, leverages Rust for performance and reliability."
 name = "preq"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -13,6 +24,11 @@ version = "0.1.2"
 [[project.authors]]
 email = "antoniomtbraz@gmail.com"
 name = "Antonio Braz"
+
+[project.urls]
+homepage = "https://pypi.org/project/preq/"
+repository = "https://github.com/atbraz/preq"
+issue-tracker = "https://github.com/atbraz/preq/issues"
 
 [tool.maturin]
 bindings = "bin"
