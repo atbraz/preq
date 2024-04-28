@@ -1,21 +1,22 @@
 [build-system]
-requires = ["maturin>=1.0,<2.0"] 
-build-backend = "maturin" 
+build-backend = "maturin"
+requires = ["maturin>=1.0,<2.0"]
 
 [project]
-name = "preq" 
-version = "0.1.1"
-authors = [{"Antonio Braz"="antoniomtbraz@gmail.com"}]
-description = "Generates requirements.txt for Python projects." 
-requires-python = ">=3.10" 
+classifiers = ["Programming Language :: Python :: 3.10"]
+description = "Generates requirements.txt for Python projects."
+name = "preq"
 readme = "README.md"
-classifiers = [
-    "Programming Language :: Python :: 3.10"
-]
+requires-python = ">=3.10"
+version = "0.1.2"
+
+[[project.authors]]
+email = "antoniomtbraz@gmail.com"
+name = "Antonio Braz"
 
 [tool.maturin]
-name = "preq"
+bindings = "bin"
 kind = "bin"
-version = "0.1.1"
-bindings = "bin" 
+name = "preq"
 strip = true
+version = "0.1.2"
