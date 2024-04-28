@@ -1,4 +1,4 @@
-# preq 0.1.1
+# preq
 ![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fatbraz%2Fpreq%2Fmain%2Fpyproject.toml&style=for-the-badge&logo=python&logoColor=f9d35a&label=%20&labelColor=3d6fa0&color=555555)
 ![PyPI - Version](https://img.shields.io/pypi/v/preq?style=for-the-badge&link=https%3A%2F%2Fpypi.org%2Fproject%2Fpreq%2F)
 ![Static Badge](https://img.shields.io/badge/Written_in_Rust-_?style=for-the-badge&logo=rust&logoColor=orange&labelColor=303030&color=555555)
